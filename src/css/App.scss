@@ -13,7 +13,7 @@ $phone: 767px;
   min-height: 100vh;
   width: 100%;
   background-color: #fff;
-  background-image: url("../assets/booksBG.jpeg");
+  background-image: url("../assets/booksBG.webp");
   background-position: center bottom;
   background-repeat: no-repeat;
   .navigation {
@@ -73,7 +73,7 @@ $phone: 767px;
       }
     }
   }
-  
+
   footer {
     background-color: $black;
     @media (max-width: $tablet-max) {
@@ -118,3 +118,6 @@ $phone: 767px;
   color: $pink;
 }
 
+.faq-icon {
+  color: $pink;
+}

@@ -11,7 +11,7 @@ class HelpfulLinks extends Component {
         const links = [{
             currentLocation: "Alabama",
             linkHeader: "Alabama Homeschool Laws",
-            link: "http://www.homeschoolfacts.com/state-laws/alabama-homeschool-state-laws.html"
+            link: "https://www2.ed.gov/about/offices/list/oii/nonpublic/alabama.html"
         },
             {
                 currentLocation: "Alaska",
@@ -289,8 +289,8 @@ class HelpfulLinks extends Component {
                 <div className="col-xs-12 col-md-6 helpful-links">
                     <h4 className="helpful-links-header">Helpful Links:</h4>
                     <ul onChange={handleChange()}>
-                        <li className="link-header"><a href={mainLink} target="_blank">State.gov Site</a></li>
-                        <li className="link-header"><a href={newLinks.link} target="_blank">{newLinks.linkHeader}</a></li>
+                        <li className="link-header"><a href={mainLink} target="_blank" rel="noopener">State.gov Site</a></li>
+                        <li className="link-header"><a href={newLinks.link} target="_blank" rel="noopener">{newLinks.linkHeader}</a></li>
                     </ul>
                 </div>
             </div>
